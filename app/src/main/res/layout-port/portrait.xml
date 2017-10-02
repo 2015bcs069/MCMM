@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/portlist"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:contextClickable="true"
+        android:layout_weight="3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/veg"
+        android:layout_toEndOf="@+id/portlist"
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/portlist">
+
+        <include
+            android:id="@+id/fragVeg"
+            layout="@layout/fragment_vegetables">
+
+        </include>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragClothes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/portlist"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/portlist">
+
+        <include layout="@layout/fragment_clothes" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/portlist"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/portlist">
+
+        <include layout="@layout/fragment_fruits" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_toEndOf="@+id/portlist"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/portlist">
+
+        <include layout="@layout/fragment_shoes" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

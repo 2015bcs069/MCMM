@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pascal.mbararacentralmarket.Fruits1"
+    android:background="#ece9ae">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="195dp"
+        android:text="The following are fruits and their prices"
+        android:textColor="#3e4a81"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mangoes"
+        android:layout_marginTop="40dp"
+        android:textColor="#948f43"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/mango"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="120dp"
+        android:text="PRICE: 3 Mangoes Shs. 1000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="120dp"
+        android:text="We sell both local and exotic mangoes from Kasese and other regions."
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oranges"
+        android:layout_marginTop="180dp"
+        android:textColor="#948f43"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/orange"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="120dp"
+        android:text="PRICE: 2 Oranges Shs. 1000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="120dp"
+        android:text="They are fresh and can make good juice "
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Melon"
+        android:layout_marginTop="320dp"
+        android:textColor="#948f43"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/watermelon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="120dp"
+        android:text="PRICE: Shs. 4000 Each"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="120dp"
+        android:text="These fruits can conquer your thirst. They are too juicy"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lemon"
+        android:layout_marginTop="460dp"
+        android:textColor="#948f43"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/lemon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="120dp"
+        android:text="PRICE: 4 at Shs.1000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="120dp"
+        android:text="These help to cure cough. We also give bonus mangaanda to people who buy in large quantities."
+        android:textSize="20sp"/>
+    </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

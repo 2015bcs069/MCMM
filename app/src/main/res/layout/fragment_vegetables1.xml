@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pascal.mbararacentralmarket.Vegetables1"
+    android:background="#95cc91">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="195dp"
+        android:text="The following are different categories of vegetables and their prices"
+        android:textColor="#3e4a81"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green pepper"
+        android:layout_marginTop="70dp"
+        android:textColor="#948f43"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/gre"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="120dp"
+        android:text="PRICE: Each at shs.200"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="120dp"
+        android:text="These are good when prapering saurce.They bring favor in food"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doodo"
+        android:layout_marginTop="210dp"
+        android:textColor="#948f43"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/dodo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="120dp"
+        android:text="PRICE: A bundle at shs 1000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="120dp"
+        android:text="These greens are fresh and help to keep eye vision good"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cabbage"
+        android:layout_marginTop="350dp"
+        android:textColor="#948f43"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/cabbage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="120dp"
+        android:text="PRICE: At sh 2000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="120dp"
+        android:text="It helps in keeping body fresh and its a good medicine for ulcers"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carrots"
+        android:layout_marginTop="490dp"
+        android:textColor="#948f43"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="520dp"
+        android:src="@drawable/carrots"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="120dp"
+        android:text="PRICE: 5 at Shs.1000"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="120dp"
+        android:text="These are used when preparing chapati and  make food look nice"
+        android:textSize="20sp"/>
+    </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
